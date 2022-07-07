@@ -1,0 +1,32 @@
+{
+  "name": "desafio12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "faker": "^6.6.6",
+    "firebase-admin": "^11.0.0",
+    "joi": "^17.6.0",
+    "moment": "^2.29.4",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.3",
+    "nodemon": "^2.0.19",
+    "normalizr": "^3.6.2",
+    "socket.io": "^4.5.1"
+  }
+}
